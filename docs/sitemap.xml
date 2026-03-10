@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pinkysworld.github.io/NomadKitchenTycoon/</loc>
+    <loc>https://minh.systems/NomadKitchenTycoon/</loc>
   </url>
   <url>
-    <loc>https://pinkysworld.github.io/NomadKitchenTycoon/support.html</loc>
+    <loc>https://minh.systems/NomadKitchenTycoon/tips.html</loc>
   </url>
   <url>
-    <loc>https://pinkysworld.github.io/NomadKitchenTycoon/privacy.html</loc>
+    <loc>https://minh.systems/NomadKitchenTycoon/support.html</loc>
+  </url>
+  <url>
+    <loc>https://minh.systems/NomadKitchenTycoon/privacy.html</loc>
   </url>
 </urlset>
