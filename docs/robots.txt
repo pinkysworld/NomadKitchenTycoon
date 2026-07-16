@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pinkysworld.github.io/NomadKitchenTycoon/sitemap.xml
+Sitemap: https://minh.systems/NomadKitchenTycoon/sitemap.xml

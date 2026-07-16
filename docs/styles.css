@@ -100,7 +100,7 @@ img {
 .brand-icon {
   width: 42px;
   height: 42px;
-  border-radius: 12px;
+  border-radius: 22.37%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -212,6 +212,7 @@ h3 {
 .cta-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 14px;
   margin-top: 26px;
 }
@@ -244,42 +245,21 @@ h3 {
   background: rgba(255, 255, 255, 0.05);
 }
 
-.button-appstore {
-  gap: 10px;
-  padding: 0 24px;
-  background: #fff;
-  color: #000;
-  border-radius: 14px;
-  min-height: 54px;
-  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.08);
+.appstore-badge {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-.button-appstore:hover {
-  background: #f0f0f0;
-  box-shadow: 0 16px 40px rgba(255, 255, 255, 0.12);
+.appstore-badge img {
+  height: 54px;
+  width: auto;
+  display: block;
 }
 
-.appstore-logo {
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-.appstore-text {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  line-height: 1.2;
-}
-
-.appstore-text small {
-  font-size: 0.65rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-}
-
-.appstore-text {
-  font-size: 1.1rem;
+.appstore-badge:hover {
+  transform: translateY(-2px);
+  opacity: 0.88;
 }
 
 .policy-link {
@@ -423,7 +403,7 @@ h3 {
 .app-icon {
   width: 124px;
   height: 124px;
-  border-radius: 28px;
+  border-radius: 27.78%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.28);
 }
 
@@ -533,7 +513,10 @@ h3 {
   gap: 18px;
 }
 
-.feature-grid,
+.feature-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .support-grid,
 .policy-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -544,7 +527,7 @@ h3 {
 }
 
 .policy-stack {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
 }
 
 .feature-card,
@@ -643,6 +626,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 28px 32px;
   border: 1px solid var(--line);
@@ -704,6 +688,10 @@ h3 {
 }
 
 @media (max-width: 980px) {
+  .feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .hero,
   .subpage-hero,
   .story-grid,
@@ -759,6 +747,10 @@ h3 {
     height: 96px;
   }
 
+  .appstore-badge img {
+    height: 44px;
+  }
+
   .showcase-grid {
     grid-template-columns: 1fr;
   }
@@ -771,6 +763,10 @@ h3 {
   .support-grid,
   .policy-grid,
   .table-row {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
     grid-template-columns: 1fr;
   }
 
