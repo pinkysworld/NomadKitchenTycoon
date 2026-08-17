@@ -6,26 +6,27 @@
   <title>Nomad Kitchen Tycoon — Food Truck Manager Simulator for iPhone &amp; iPad</title>
   <meta
     name="description"
-    content="Build your street food empire from a single truck. Match menus to local demand, master sixteen districts across two cities, hire staff, and own the lunch rush in Nomad Kitchen Tycoon."
+    content="Build your street food empire from a single truck. Work a real cookline, master sixteen districts across two cities, unlock recipes, and hire a crew in Nomad Kitchen Tycoon."
   >
   <meta property="og:title" content="Nomad Kitchen Tycoon — Food Truck Manager Simulator">
   <meta
     property="og:description"
-    content="Build your street food empire from a single truck. Manage menus, hire staff, expand to a second city, and master the lunch rush."
+    content="Build your street food empire from a single truck. Work the grill, expand to a second city, and own the lunch rush."
   >
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://minh.systems/NomadKitchenTycoon/">
   <meta property="og:image" content="assets/app-icon.png">
+  <meta name="theme-color" content="#f7efe2">
   <link rel="canonical" href="https://minh.systems/NomadKitchenTycoon/">
   <link rel="icon" href="assets/app-icon.png">
   <link rel="apple-touch-icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="page-home">
-  <div class="site-shell">
-    <header class="site-header">
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
       <a class="brand" href="index.html" aria-label="Nomad Kitchen Tycoon home">
-        <img class="brand-icon" src="assets/app-icon.png" alt="" width="42" height="42">
+        <img src="assets/app-icon.png" alt="" width="40" height="40">
         <span class="brand-text">
           <strong>Nomad Kitchen Tycoon</strong>
           <span>Food Truck Manager Simulator</span>
@@ -33,335 +34,261 @@
       </a>
       <nav class="site-nav" aria-label="Primary">
         <a href="index.html" aria-current="page">Home</a>
-        <a href="tips.html">Tips &amp; Tricks</a>
+        <a href="tips.html">Tips</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="hero reveal">
+  <main>
+    <div class="wrap">
+      <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Available on iPhone &amp; iPad</p>
-          <h1>Build your street food empire, one truck at a time.</h1>
-          <p class="hero-text">
-            Start with a single beat-up van and grow it into a two-city fleet.
-            Craft winning menus, work the grill under pressure, hire talented
-            staff, and expand from Harborview to the sunlit coast of Costa
-            Verde. Nomad Kitchen Tycoon is the food truck management sim
-            you've been waiting for.
+          <span class="eyebrow">Free on iPhone &amp; iPad</span>
+          <h1>Build a street food empire, one truck at a time.</h1>
+          <p class="lead">
+            Start with a beat-up van and a single burger. Work a real cookline
+            under pressure, read what each neighbourhood wants, and grow into a
+            fleet across two cities — from the Harborview night market to the
+            sunlit coast of Costa Verde.
           </p>
           <div class="hero-actions">
-            <a class="appstore-badge" href="https://apps.apple.com/app/id6759504817" target="_blank" rel="noopener">
-              <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="54">
+            <a class="appstore" href="https://apps.apple.com/app/id6759504817" target="_blank" rel="noopener">
+              <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="52">
             </a>
-            <a class="button button-secondary" href="tips.html">Tips &amp; Tricks</a>
+            <a class="btn btn-ghost" href="tips.html">How to play</a>
           </div>
-          <ul class="hero-points" aria-label="Highlights">
-            <li>Deep food truck management with real progression</li>
-            <li>Multi-stage prep — get it on the grill before it is needed</li>
-            <li>16 districts across two cities, each with their own tastes</li>
-            <li>Hire staff, upgrade trucks, unlock recipes, build prestige</li>
-          </ul>
+          <div class="hero-stats">
+            <div class="stat"><b>16</b><span>districts across two cities</span></div>
+            <div class="stat"><b>33</b><span>ingredients to combine</span></div>
+            <div class="stat"><b>6</b><span>upgradeable trucks</span></div>
+          </div>
         </div>
-
         <div class="hero-stage">
-          <div class="showcase-card skyline-card">
-            <img class="app-icon" src="assets/app-icon.png" alt="Nomad Kitchen Tycoon app icon" width="124" height="124">
-            <div class="showcase-meta">
-              <p class="showcase-label">The Core Loop</p>
-              <h2>From one rusted van to a city-wide fleet</h2>
-              <p>
-                Tune prices, chase demand spikes, unlock recipes, and turn every
-                shift into bigger reach, better margins, and a stronger brand.
-              </p>
-            </div>
-          </div>
-          <div class="showcase-grid">
-            <article class="showcase-card small-card bg-card">
-              <img src="assets/bg-downtown.png" alt="Downtown district art" loading="lazy">
-              <div>
-                <p class="card-kicker">District Strategy</p>
-                <h3>Pick the right corner</h3>
-              </div>
-            </article>
-            <article class="showcase-card small-card truck-card">
-              <img src="assets/truck-premium.png" alt="Premium food truck" loading="lazy">
-              <div>
-                <p class="card-kicker">Fleet Growth</p>
-                <h3>Upgrade every truck</h3>
-              </div>
-            </article>
-            <article class="showcase-card wide-card bg-card">
-              <img src="assets/bg-night-market.png" alt="Night market district art" loading="lazy">
-              <div>
-                <p class="card-kicker">Rush Gameplay</p>
-                <h3>Beat the crowd, chain the combos</h3>
-              </div>
-            </article>
+          <div class="blob" aria-hidden="true"></div>
+          <div class="phone">
+            <img src="assets/shot-city-map.png"
+                 alt="The Harborview city map with district pins" width="560" height="1217">
           </div>
         </div>
       </section>
+    </div>
 
-      <section class="value-strip reveal">
-        <div class="value-pill">
-          <span class="value-number">16</span>
-          <span class="value-label">districts across two cities to explore and conquer</span>
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>The part you actually play</h2>
+          <p>
+            Every shift is a live service rush. Orders queue, the grill takes
+            real seconds, and the difference between a good day and a bad one is
+            whether you thought one customer ahead.
+          </p>
         </div>
-        <div class="value-pill">
-          <span class="value-number">33</span>
-          <span class="value-label">fresh ingredients to combine into winning recipes</span>
-        </div>
-        <div class="value-pill">
-          <span class="value-number">6</span>
-          <span class="value-label">fully upgradeable food trucks to build your fleet</span>
-        </div>
-      </section>
 
-      <section class="section reveal">
-        <div class="section-heading">
-          <p class="eyebrow">New in version 1.4</p>
-          <h2>A second city, a real map, and a recipe book worth filling.</h2>
-        </div>
-        <div class="showcase-grid">
-          <article class="showcase-card small-card bg-card">
-            <img src="assets/city-map-harborview.png" alt="Illustrated map of Harborview with district pins" loading="lazy">
-            <div>
-              <p class="card-kicker">Harborview</p>
-              <h3>Where it started</h3>
+        <div class="feature reveal">
+          <div class="feature-media">
+            <div class="phone">
+              <img src="assets/shot-rush.png" alt="The rush: customers queueing with orders while items cook on the grill" width="560" height="1217" loading="lazy">
             </div>
-          </article>
-          <article class="showcase-card small-card bg-card">
-            <img src="assets/city-map-costa-verde.png" alt="Illustrated map of Costa Verde with district pins" loading="lazy">
-            <div>
-              <p class="card-kicker">Costa Verde</p>
-              <h3>Sun, salt, a new permit ladder</h3>
+          </div>
+          <div class="feature-copy">
+            <h3>Work the cookline, not just the counter</h3>
+            <p>
+              Proteins, rice and fries need heat and hold a station while they
+              cook. Everything else plates in a tap. Start the next customer's
+              order on a free grill while you finish the current one — a busy
+              queue rewards planning, not panic.
+            </p>
+            <div class="tags">
+              <span class="tag tag-warm">Cook ahead</span>
+              <span class="tag">Combo tips</span>
+              <span class="tag tag-plum">Perfect / Good / Late</span>
             </div>
-          </article>
+          </div>
         </div>
-        <div class="story-grid" style="margin-top: 18px;">
-          <article class="story-card accent-warm">
-            <p class="card-kicker">Expansion</p>
-            <h3>Take the empire to the coast</h3>
+
+        <div class="feature reveal">
+          <div class="feature-media">
+            <div class="phone">
+              <img src="assets/shot-recipes.png" alt="The recipe book showing collection progress" width="560" height="1217" loading="lazy">
+            </div>
+          </div>
+          <div class="feature-copy">
+            <h3>Recipes you earn, not buy</h3>
             <p>
-              Earn your reputation, bank the cash, and buy your way into Costa
-              Verde — eight new districts from a working fishing harbour to a
-              festival square that never quite closes. You keep everything you
-              built; the map simply gets bigger.
-            </p>
-          </article>
-          <article class="story-card accent-ink">
-            <p class="card-kicker">City Map</p>
-            <h3>Tap the pin, take the corner</h3>
-            <p>
-              Both cities are drawn as real illustrated maps. Your trucks show
-              up where they are parked, the day's recommended route is marked,
-              and every district is one tap away instead of buried in a list.
-            </p>
-          </article>
-          <article class="story-card accent-gold">
-            <p class="card-kicker">Recipe Book</p>
-            <h3>A collection, not an inventory</h3>
-            <p>
-              Thirteen curated recipes unlock across the campaign, gated on
-              reputation and District Mastery — so mastering the waterfront is
+              Thirteen dishes unlock across the campaign, gated behind reputation
+              and district mastery. Working the waterfront until you know it is
               what finally puts a lobster roll on your board.
             </p>
-          </article>
-        </div>
-        <div class="story-grid" style="margin-top: 18px;">
-          <article class="story-card accent-warm">
-            <p class="card-kicker">Work the Line</p>
-            <h3>Cook ahead, not just fast</h3>
-            <p>
-              A free grill station can now start the next customer's order while
-              you plate the current one. Kitchen upgrades finally buy throughput
-              you can feel, and a busy queue rewards planning over panic.
-            </p>
-          </article>
-          <article class="story-card accent-ink">
-            <p class="card-kicker">Fair Fights</p>
-            <h3>Rebalanced from the first shift</h3>
-            <p>
-              Rush pacing was rebuilt around how service actually works, so a
-              full queue is a challenge rather than a lost cause — and the
-              guided first shift can no longer be failed.
-            </p>
-          </article>
-          <article class="story-card accent-gold">
-            <p class="card-kicker">Pricing</p>
-            <h3>Budget, standard, premium, happy hour</h3>
-            <p>
-              Set a pricing strategy per truck and trade margin against footfall.
-              Premium suits the financial district; happy hour fills a quiet
-              promenade.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-heading">
-          <p class="eyebrow">Game Features</p>
-          <h2>Everything you need to build a food truck empire</h2>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>Craft the perfect menu</h3>
-            <p>
-              Combine 33 real ingredients into custom recipes. Match each truck's
-              menu to neighborhood demand and develop signature dishes that keep
-              customers coming back.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Master the lunch rush</h3>
-            <p>
-              Time-pressure rush events demand quick decisions and smooth combos.
-              Serve faster, earn bigger tips, and build your reputation across the city.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Hire and grow your crew</h3>
-            <p>
-              Recruit chefs, servers, drivers, and managers — each with unique traits.
-              Level them up and optimize your team for peak performance.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Upgrade your fleet</h3>
-            <p>
-              Boost engines, kitchens, storage, serving speed, and branding on each truck.
-              Every upgrade is visible and changes how your trucks perform on the street.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Conquer every district</h3>
-            <p>
-              Sixteen neighbourhoods across two cities, each with distinct tastes
-              and spending habits. Build District Mastery for permanent local
-              revenue and tip bonuses.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>Complete contracts &amp; challenges</h3>
-            <p>
-              Take on daily challenges and weekly contracts for bonus rewards.
-              Prestige your empire to unlock new layers of progression and earn
-              permanent multipliers.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section reveal">
-        <div class="section-heading">
-          <p class="eyebrow">Your Fleet</p>
-          <h2>Six unique trucks, each fully customizable</h2>
-        </div>
-        <div class="showcase-grid">
-          <article class="showcase-card small-card truck-card">
-            <img src="assets/truck-classic.png" alt="Classic food truck" loading="lazy">
-            <div>
-              <p class="card-kicker">Start Here</p>
-              <h3>From rusty van to mobile kitchen</h3>
+            <div class="tags">
+              <span class="tag tag-warm">13 recipes</span>
+              <span class="tag">District mastery</span>
             </div>
-          </article>
-          <article class="showcase-card small-card bg-card">
-            <img src="assets/bg-financial.png" alt="Financial district" loading="lazy">
-            <div>
-              <p class="card-kicker">High Stakes</p>
-              <h3>Serve the city's elite</h3>
+          </div>
+        </div>
+
+        <div class="feature reveal">
+          <div class="feature-media">
+            <div class="phone">
+              <img src="assets/shot-fleet.png" alt="Truck management with upgrade levels and pricing" width="560" height="1217" loading="lazy">
             </div>
-          </article>
+          </div>
+          <div class="feature-copy">
+            <h3>Upgrades that change how a shift feels</h3>
+            <p>
+              A better kitchen cooks faster and runs more stations. More serving
+              windows lengthen the queue you can hold. Set a pricing strategy per
+              truck and trade margin against footfall — premium suits the
+              financial district, happy hour fills a quiet promenade.
+            </p>
+            <div class="tags">
+              <span class="tag">Kitchen &amp; engine</span>
+              <span class="tag tag-warm">Pricing strategy</span>
+              <span class="tag tag-plum">Fleet growth</span>
+            </div>
+          </div>
         </div>
-        <div class="story-grid" style="margin-top: 18px;">
-          <article class="story-card accent-warm">
-            <p class="card-kicker">Engine</p>
-            <h3>Faster routes, more shifts</h3>
-            <p>
-              Upgrade your engine to travel between districts faster and fit
-              more shifts into every day.
-            </p>
-          </article>
-          <article class="story-card accent-ink">
-            <p class="card-kicker">Kitchen</p>
-            <h3>Cook faster, serve more</h3>
-            <p>
-              A better kitchen means quicker prep times and the ability to
-              handle bigger rushes without falling behind.
-            </p>
-          </article>
-          <article class="story-card accent-gold">
-            <p class="card-kicker">Branding</p>
-            <h3>Stand out on the street</h3>
-            <p>
-              Visual upgrades attract more customers and increase your
-              reputation multiplier in every district.
-            </p>
-          </article>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section reveal">
-        <div class="section-heading">
-          <p class="eyebrow">What Makes It Special</p>
-          <h2>A tycoon game built for quick sessions and long-term goals</h2>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>Two cities, sixteen corners</h2>
+          <p>
+            Both cities are illustrated maps you travel by tapping a pin. Costa
+            Verde is earned, not reset into — everything you built comes with you.
+          </p>
         </div>
-        <div class="story-grid">
-          <article class="story-card accent-warm">
-            <p class="card-kicker">Management</p>
-            <h3>Run a real food business</h3>
-            <p>
-              Pricing strategy, supply management, location scouting, and customer
-              satisfaction — every decision shapes your empire.
-            </p>
-          </article>
-          <article class="story-card accent-ink">
-            <p class="card-kicker">Progression</p>
-            <h3>Always something to work toward</h3>
-            <p>
-              Daily challenges, weekly contracts, rush mastery, staff growth, and
-              prestige give you reasons to come back day after day.
-            </p>
-          </article>
-          <article class="story-card accent-gold">
-            <p class="card-kicker">Fantasy</p>
-            <h3>Start small, dream big</h3>
-            <p>
-              Turn a rusty side hustle into the city's hottest street food brand.
-              Every decision brings you closer to food truck legend status.
-            </p>
-          </article>
+        <div class="cities reveal">
+          <figure class="city">
+            <img src="assets/city-map-harborview.png" alt="Illustrated map of Harborview" loading="lazy">
+            <figcaption>
+              <b>Harborview</b>
+              <span>Where it started</span>
+            </figcaption>
+          </figure>
+          <figure class="city">
+            <img src="assets/city-map-costa-verde.png" alt="Illustrated map of Costa Verde" loading="lazy">
+            <figcaption>
+              <b>Costa Verde</b>
+              <span>Sun, salt, a new permit ladder</span>
+            </figcaption>
+          </figure>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="cta-band reveal">
-        <div>
-          <p class="eyebrow">Ready to start cooking?</p>
-          <h2>Download Nomad Kitchen Tycoon free on the App Store.</h2>
+    <section class="section section-alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2>A business, not just a minigame</h2>
         </div>
+        <div class="grid reveal">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🗺️</div>
+            <h3>Read the street</h3>
+            <p>
+              Each district has its own tastes, wealth and peak hours. Weather,
+              rivals and local demand all move day to day — the map tells you
+              where today's money is.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">👩‍🍳</div>
+            <h3>Hire a crew</h3>
+            <p>
+              Chefs, servers, drivers and managers, each with traits that matter.
+              Put the fast chef on the truck working the busiest corner.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📈</div>
+            <h3>Watch the margin</h3>
+            <p>
+              Ingredient prices move daily. Supplier contracts, logistics and
+              stock control decide whether a busy day is also a profitable one.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🏆</div>
+            <h3>Play the long game</h3>
+            <p>
+              Daily challenges, weekly contracts, seven-day City Seasons with a
+              playable finale, and franchise perks that outlast a run.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">✈️</div>
+            <h3>Play offline</h3>
+            <p>
+              No connection needed. Your trucks keep earning while the app is
+              closed, and the day is waiting when you come back.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">♿</div>
+            <h3>Built to be playable</h3>
+            <p>
+              Reduced Motion, VoiceOver support for the rush, and adjustable
+              touch targets — the shift should be hard, not the interface.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="cta reveal">
+        <h2>Your first shift is waiting.</h2>
+        <p>
+          Free to download. One van, one burger, and a lunch rush that does not
+          care whether you are ready.
+        </p>
         <div class="cta-actions">
-          <a class="appstore-badge" href="https://apps.apple.com/app/id6759504817" target="_blank" rel="noopener">
-            <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="54">
+          <a class="appstore" href="https://apps.apple.com/app/id6759504817" target="_blank" rel="noopener">
+            <img src="assets/app-store-badge.svg" alt="Download on the App Store" height="52">
           </a>
-          <a class="button button-secondary" href="tips.html">Tips &amp; Tricks</a>
+          <a class="btn btn-ghost" href="tips.html">Read the tips first</a>
         </div>
       </section>
-    </main>
+    </div>
 
-    <footer class="site-footer">
-      <div>
-        <strong>Nomad Kitchen Tycoon</strong>
-        <p>&copy; 2026 minh.systems. All rights reserved.</p>
-      </div>
-      <div class="footer-links">
-        <a href="tips.html">Tips &amp; Tricks</a>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="mailto:mip@gmx.biz">Contact</a>
-      </div>
-    </footer>
-  </div>
+    <div class="wrap">
+      <footer class="site-footer">
+        <div>
+          <strong>Nomad Kitchen Tycoon</strong>
+          <p>&copy; 2026 minh.systems. All rights reserved.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="tips.html">Tips</a>
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="mailto:mip@gmx.biz">Contact</a>
+        </nav>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    // Progressive enhancement only — everything is visible without JS.
+    (function () {
+      var items = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        items.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      items.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 </body>
 </html>
