@@ -6,7 +6,7 @@
   <title>Privacy Policy — Nomad Kitchen Tycoon</title>
   <meta
     name="description"
-    content="Privacy Policy for Nomad Kitchen Tycoon. Learn how the app handles local save data, advertising, analytics, in-app purchases, and your privacy choices."
+    content="Privacy Policy for Nomad Kitchen Tycoon. Learn how the iOS and Android apps handle local save data, advertising, analytics, in-app purchases, and your privacy choices."
   >
   <meta property="og:title" content="Privacy Policy — Nomad Kitchen Tycoon">
   <meta
@@ -45,7 +45,8 @@
           <p class="eyebrow">Privacy Policy</p>
           <h1>Your privacy matters. Here's how Nomad Kitchen Tycoon handles your data.</h1>
           <p class="hero-text">
-            Last updated: March 10, 2026. This policy explains what information the
+            Last updated: November 4, 2026. This policy applies to the iOS app (App Store)
+            and the Android app (Google Play) and explains what information the
             app stores locally, what third-party services may collect through
             advertising and analytics, and the controls available to you.
           </p>
@@ -72,16 +73,23 @@
             <p>
               All gameplay data — unlocked trucks, recipes, staff progress, currency
               balances, settings, and achievements — is stored locally on your device.
-              This data never leaves your phone unless you choose to back it up via
-              iCloud or iTunes.
+              On iOS, this data never leaves your phone unless you choose to back it up via
+              iCloud or iTunes. On Android, the app allows Android's Auto Backup, so your
+              device may back up the save file to your Google Account (for example Google
+              Drive) according to your Android backup settings; you can turn this off in
+              Android Settings.
             </p>
           </article>
           <article class="policy-card">
             <h3>In-app purchases</h3>
             <p>
-              Purchases are processed entirely by Apple through the App Store. The app
-              receives only transaction status and entitlement information needed to
-              unlock paid content, restore purchases, and remove ads where applicable.
+              On iOS, purchases are processed entirely by Apple through the App Store.
+              On Android, purchases are processed entirely by Google through Google Play
+              Billing. In both cases the app receives only transaction status and
+              entitlement information (such as the product ID, purchase state and
+              purchase token) needed to unlock paid content, restore purchases, and
+              remove ads where applicable. On Android, the app checks the digital
+              signature of a purchase on your device before it unlocks anything.
             </p>
           </article>
           <article class="policy-card">
@@ -90,6 +98,7 @@
               If you allow notifications, the app may schedule local reminders for
               daily challenges, reward availability, and gameplay events. You can
               disable notifications in the app settings or in iOS Settings at any time.
+              The Android app does not schedule notifications.
             </p>
           </article>
         </div>
@@ -104,12 +113,15 @@
           <article class="feature-card">
             <h3>Google AdMob</h3>
             <p>
-              The app displays ads through Google AdMob, including banner,
-              interstitial, rewarded video, and app-open ad formats. Depending on
-              your consent and device settings, AdMob may process device identifiers,
-              advertising IDs, interaction data, diagnostic information, and coarse
-              location signals for ad delivery, measurement, frequency capping, and
-              fraud prevention.
+              The app displays ads through Google AdMob. The iOS app uses banner,
+              interstitial, rewarded video, and app-open ad formats; the Android app uses
+              banner, interstitial (including one shown when the app opens) and rewarded
+              video ads. Ad content is limited to the rating "G" (general audiences).
+              Depending on your consent and device settings, AdMob may process device
+              identifiers, advertising IDs (the Apple advertising identifier on iOS, the
+              Android advertising ID on Android), IP address, interaction data,
+              diagnostic information, and coarse location signals for ad delivery,
+              measurement, frequency capping, and fraud prevention.
             </p>
             <p class="policy-link">
               <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
@@ -120,18 +132,24 @@
             <p>
               Before showing personalized ads, the app uses Google's UMP consent SDK
               to present a privacy and advertising consent dialog where required
-              (e.g., in the EU/EEA). This ensures you can choose whether to allow
+              (e.g., in the EU/EEA and the UK) on both iOS and Android. On Android,
+              no ad is requested before the consent status is known, and where a
+              privacy options form is required you can reopen it from the app's
+              settings. This ensures you can choose whether to allow
               personalized advertising or opt for non-personalized ads only.
             </p>
           </article>
           <article class="feature-card">
-            <h3>Firebase Analytics</h3>
+            <h3>Firebase Analytics (iOS only)</h3>
             <p>
-              The app uses Firebase Analytics to log gameplay events such as session
-              starts, level completions, ad impressions, and purchase events. This
-              data helps improve game balance, understand feature usage, and optimize
-              the player experience. Firebase may process device identifiers and
-              interaction data for these purposes.
+              The iOS app uses Firebase Analytics to log gameplay events such as
+              session starts, level completions, ad impressions, and purchase events.
+              This data helps improve game balance, understand feature usage, and
+              optimize the player experience. Firebase may process device identifiers
+              and interaction data for these purposes. The Android app does not use
+              Firebase at all: it contains no Firebase Analytics, no Firebase
+              Crashlytics and no other Firebase component, and sends no data to
+              Firebase.
             </p>
             <p class="policy-link">
               <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Information</a>
@@ -148,15 +166,15 @@
         <div class="table-like">
           <div class="table-row">
             <div class="table-cell table-heading">Identifiers</div>
-            <div class="table-cell">Device identifiers and advertising IDs may be used for ad delivery, analytics, attribution, and fraud prevention.</div>
+            <div class="table-cell">Device identifiers and advertising IDs (Apple advertising identifier on iOS, Android advertising ID on Android) may be used for ad delivery, attribution, and fraud prevention, and on iOS for analytics.</div>
           </div>
           <div class="table-row">
             <div class="table-cell table-heading">Usage Data</div>
-            <div class="table-cell">Gameplay events, ad interactions, purchase events, session data, and other product interaction signals may be logged.</div>
+            <div class="table-cell">On iOS, gameplay events, ad interactions, purchase events, session data, and other product interaction signals may be logged. The Android app does not log gameplay analytics.</div>
           </div>
           <div class="table-row">
             <div class="table-cell table-heading">Diagnostics</div>
-            <div class="table-cell">Crash reports, performance metrics, and diagnostic data may be collected to improve app stability and reliability.</div>
+            <div class="table-cell">On iOS, crash and diagnostic data may be collected to improve app stability. The Android app does not collect crash reports; Google Play may provide us with aggregated crash data from users who opted in on their device.</div>
           </div>
           <div class="table-row">
             <div class="table-cell table-heading">Approximate Location</div>
@@ -180,18 +198,29 @@
         </div>
         <div class="policy-stack">
           <article class="feature-card">
-            <h3>App Tracking Transparency</h3>
+            <h3>App Tracking Transparency (iOS only)</h3>
             <p>
               On iOS 14.5 and later, the app will request your permission via Apple's
               App Tracking Transparency prompt before using your advertising identifier
               for cross-app tracking. If you decline, ads will still be shown but they
-              will not be personalized based on cross-app data.
+              will not be personalized based on cross-app data. The Android app
+              does not use App Tracking Transparency, which is an Apple feature.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Android advertising ID</h3>
+            <p>
+              On Android, you can reset your advertising ID, or delete it so that apps
+              can no longer use it, in Android Settings (Settings &gt; Privacy &gt; Ads,
+              or Settings &gt; Google &gt; Ads, depending on your device). You can also
+              opt out of ad personalization there. Ads then remain, but they are not
+              personalized using the advertising ID.
             </p>
           </article>
           <article class="feature-card">
             <h3>Consent management</h3>
             <p>
-              In regions where required (EU/EEA), you will see a consent dialog on
+              In regions where required (EU/EEA and UK), you will see a consent dialog on
               first launch. You can update your consent preferences at any time from
               the app's settings screen.
             </p>
@@ -226,7 +255,7 @@
             <p>
               The app never collects credit card numbers or direct payment details.
               All payment processing is handled securely by Apple through the
-              App Store.
+              App Store (iOS) or by Google through Google Play (Android).
             </p>
           </article>
           <article class="policy-card">
